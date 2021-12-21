@@ -19,7 +19,7 @@ export class HemisphereLight extends Light {
     /**
      * @default THREE.Object3D.DefaultUp
      */
-    position: Vector3;
+    readonly position: Vector3;
 
     groundColor: Color;
 
